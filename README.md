@@ -1,12 +1,12 @@
 # personInfo
 ENG
     Implement the PersonInterface interface for a single employee database.
-Declare abstac methods:
+Declare abstact methods:
 -getInfo() - getting information about the employee;
 -getStatus() - obtaining information about the position;
 -getFIO() - to get the employee’s full name
 
-    Declare child classes: Supervisers, Jobs, Clients.
+Declare child classes: Supervisers, Jobs, Clients.
 In these classes, store information: full name, position, year of birth, department, if any, phone number, address.
 Implement PersonInterface defining the necessary methods.
 Create several instances of the Supervisers, Jobs, Clients classes using generic references of the PersonInterface type.
